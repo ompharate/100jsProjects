@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: white;
+}
+
+.container{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.dice{
+    font-size: 7rem;
+    color: red;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    color:lightskyblue ;
+    font-weight: bold;
+}
+
+.history{
+    margin-top: 10px;
+}
+
+.history .list li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+}
