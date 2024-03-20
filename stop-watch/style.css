@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.timer h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.group button{
+    padding: 30px;
+    background-color: rgb(191, 203, 231);
+    border: 1px solid rgb(191, 203, 231);
+    border-radius: 15px;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
